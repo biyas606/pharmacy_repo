@@ -2,14 +2,14 @@ package models;
 
 public class LoginModel {
     String userName;
-    String Password;
+    String password;
 
     public LoginModel() {
     }
 
     public LoginModel(String userName, String password) {
         this.userName = userName;
-        Password = password;
+        password = password;
     }
 
     public String getUserName() {
@@ -21,10 +21,10 @@ public class LoginModel {
     }
 
     public String getPassword() {
-        return Password;
+        return password;
     }
 
     public void setPassword(String password) {
-        Password = password;
+        password = password;
     }
 }
